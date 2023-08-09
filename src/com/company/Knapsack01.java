@@ -1,4 +1,4 @@
-package com.company.company;
+package com.company;
 import java.util.*;
 public class Knapsack01 {
     public static int knapsackRecursion(int [] val, int [] wt, int w, int n){

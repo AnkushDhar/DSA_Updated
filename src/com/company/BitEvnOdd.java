@@ -1,4 +1,4 @@
-package com.company.company;
+package com.company;
 import java.util.*;
 public class BitEvnOdd {
     public static void evnODD (int n) {

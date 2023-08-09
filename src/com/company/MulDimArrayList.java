@@ -1,4 +1,4 @@
-package com.company.company;
+package com.company;
 import java.util.ArrayList;
 public class MulDimArrayList {
     public static void main(String[] args) {

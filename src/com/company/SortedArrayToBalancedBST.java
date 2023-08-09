@@ -1,4 +1,4 @@
-package com.company.company;
+package com.company;
 
 public class SortedArrayToBalancedBST {
     public static class Node {

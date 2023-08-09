@@ -1,4 +1,4 @@
-package com.company.company;
+package com.company;
 import java.util.*;
 public class PushAtTheBottomOfTheStack {
     public static void pushAtBottom (Stack<Integer> s1, int data) {

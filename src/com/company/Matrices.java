@@ -1,4 +1,4 @@
-package com.company.company;
+package com.company;
 import java.util.*;
 public class Matrices {
     public static void search (int [][] matrix, int key) {

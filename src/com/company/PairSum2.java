@@ -1,4 +1,4 @@
-package com.company.company;
+package com.company;
 import java.util.*;
 // sorted and rotated arrays
 public class PairSum2 {

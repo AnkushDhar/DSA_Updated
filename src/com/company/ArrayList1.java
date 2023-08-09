@@ -1,4 +1,4 @@
-package com.company.company;
+package com.company;
 import java.util.ArrayList;
 // Sorting an Arraylist
 import java.util.Collections;

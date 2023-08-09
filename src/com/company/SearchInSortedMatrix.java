@@ -1,4 +1,4 @@
-package com.company.company;
+package com.company;
 
 public class SearchInSortedMatrix {
     public static boolean staircaseSearch (int [][] matrix, int key) {

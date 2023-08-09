@@ -1,4 +1,4 @@
-package com.company.company;
+package com.company;
 import java.util.Scanner;
 public class GETithBit {
     public static int getIthBit (int n, int i) {

@@ -1,4 +1,4 @@
-package com.company.company;
+package com.company;
 import java.util.HashMap;
 public class Hashing {
     public static void main(String[] args) {

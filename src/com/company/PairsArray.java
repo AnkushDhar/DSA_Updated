@@ -1,4 +1,4 @@
-package com.company.company;
+package com.company;
 import java.util.Scanner;
 public class PairsArray {
     public static void arrayPair(int [] array){

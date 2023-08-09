@@ -1,4 +1,4 @@
-package com.company.company;
+package com.company;
 
 public class Leete {
     public static int divide(int dividend, int divisor) {

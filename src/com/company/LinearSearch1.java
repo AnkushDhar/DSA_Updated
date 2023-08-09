@@ -1,4 +1,4 @@
-package com.company.company;
+package com.company;
 import java.util.*;
 public class LinearSearch1 {
     public static int LinearS1(String [] menu, String key){

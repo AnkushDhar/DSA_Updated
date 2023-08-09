@@ -1,4 +1,4 @@
-package com.company.company;
+package com.company;
 import java.util.*;
 // sorted arrays
 public class PairSum1 {

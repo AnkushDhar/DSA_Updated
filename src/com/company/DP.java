@@ -1,4 +1,4 @@
-package com.company.company;
+package com.company;
 import java.util.*;
 public class DP {
     public static int fibMemoization(int n, int [] f){
