@@ -41,7 +41,15 @@ public class DepthFirstSearch {
 
         graph[6].add(new Edge(6, 5, 1));
     }
-    static void dfs (ArrayList<Edge> [] graph, int curr, boolean [] vis) {
+    static void dfs (ArrayList<Edge> [] graph) {
+        boolean [] vis = new boolean[graph.length];
+        for (int i = 0; i < graph.length; i++) {
+            if (!vis[i]) {
+                dfsUtil(graph, i, vis);
+            }
+        }
+    }
+    static void dfsUtil (ArrayList<Edge> [] graph, int curr, boolean [] vis) {
         //visit
         System.out.print(curr + " ");
         vis[curr] = true;
@@ -49,7 +57,7 @@ public class DepthFirstSearch {
         for (int i = 0; i < graph[curr].size(); i++) {
             Edge edge = graph[curr].get(i);
             if (!vis[edge.dest]) {
-                dfs(graph, edge.dest, vis);
+                dfsUtil(graph, edge.dest, vis);
             }
         }
     }
@@ -58,6 +66,6 @@ public class DepthFirstSearch {
         int V = 7;
         ArrayList<Edge> [] graph = new ArrayList[V];
         createGraph(graph);
-        dfs(graph, 0,  new boolean[V]);
+        dfs(graph);
     }
 }
