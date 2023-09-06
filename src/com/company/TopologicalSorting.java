@@ -46,7 +46,7 @@ public class TopologicalSorting {
                 topSortUtil(graph, edge.dest, vis, stack);
             }
         }
-        stack.add(curr);
+        stack.push(curr);
     }
     @SuppressWarnings("unchecked")
     public static void main(String[] args) {
